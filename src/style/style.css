@@ -35,6 +35,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     margin-left: 45px;
+    color: #231E23;
 }
 
 .header-main-content h1 {
@@ -56,4 +57,40 @@ a {
     flex-direction: column;
     gap: 20px;
     justify-content: center;
+}
+
+#reviews {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#reviews h1 {
+    color: #231E23;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#reviews ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#reviews li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#reviews img {
+    border: 5px solid #D97236;
+    border-radius: 20px;
+    width: 250px;
+}
+
+#reviews p {
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
 }
