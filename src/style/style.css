@@ -119,3 +119,14 @@ a {
     display: flex;
     justify-content: end;
 }
+
+footer {
+    background-color: #F2C84B;
+    color:#231E23;
+    text-align: center;
+}
+
+footer p {
+    padding: 30px;
+    font-size: 16px;
+}
