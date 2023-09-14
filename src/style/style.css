@@ -61,7 +61,7 @@ a {
 
 #reviews {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 #reviews h1 {
@@ -93,4 +93,29 @@ a {
     width: 250px;
     font-size: 20px;
     text-align: center;
+}
+
+#depoiment {
+    margin-bottom: 30px;
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+#depoiment p {
+    width: 600px;
+}
+
+.quotation {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.walter-name {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
 }
