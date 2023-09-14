@@ -1,4 +1,5 @@
 header {
+    width: 100%;
     background-color: #F2C84B;
 }
 
@@ -9,7 +10,7 @@ a {
 
 .header-links {
     display: flex;
-    margin: 0 200px;
+    margin: 0 170px;
     padding-top: 20px;
     justify-content: space-between;
 }
@@ -30,10 +31,10 @@ a {
 }
 
 .header-main-content {
-    padding-left: 50px;
-    width: 100%;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
+    margin-left: 45px;
 }
 
 .header-main-content h1 {
@@ -46,11 +47,11 @@ a {
 }
 
 .header-main-content img {
-    width: 500px;
+    width: 450px;
 }
 
 .header-text {
-    width: 350px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     gap: 20px;
